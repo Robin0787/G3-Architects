@@ -1,0 +1,199 @@
+/* Google Fonts Link */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Common Codes Or Utilities */
+
+.container {
+  width: 80%;
+  margin-inline: auto;
+}
+
+.title {
+  color: #131313;
+}
+
+.desc {
+  color: #727272;
+}
+
+.primary-btn {
+  font-weight: 600;
+  font-size: 20px;
+  background: #ff900e;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 21px 24px;
+}
+
+/* Header Sections Styles Start From Here */
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+
+/* Navbar Sections Styles Start From Here */
+
+nav {
+  line-height: 53px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .logo .title {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 30px;
+}
+nav ul li a {
+  color: #424242;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Navbar Sections Styles Is Over Above*/
+
+/* Banner Sections Styles Start From Here */
+.banner {
+  margin-top: 116px;
+  padding-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.banner .banner-image img {
+  width: 100%;
+}
+.banner .banner-details .title {
+  font-weight: 700;
+  font-size: 64px;
+}
+.banner .banner-details .desc {
+  font-weight: 400;
+  font-size: 16px;
+  width: 80%;
+  margin: 32px auto;
+  text-align: center;
+}
+.banner .banner-details .primary-btn {
+  margin-bottom: 50px;
+}
+/* Banner Sections Styles Is OVer Above*/
+
+/* Header Sections Styles Is Over Above*/
+/* -------------------------------------------------- */
+/* Main Sections Styles Start From Here */
+
+/* Features Sections Styles Start From Here */
+.container.features {
+  width: 70%;
+}
+.features {
+  margin-top: 85px;
+  display: flex;
+  align-items: center;
+  gap: 73px;
+  margin-bottom: 130px;
+}
+.features > article {
+  width: 50%;
+}
+.features .features-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.features .features-images img {
+  width: 100%;
+}
+
+.features .features-details .title {
+  font-weight: 500;
+  font-size: 45px;
+}
+.features .features-details .desc {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+/* Features Sections Styles Is Over Above */
+
+/* Experience Sections Styles Start From Here */
+
+/* Experience Sections Styles Is Over Above*/
+.experience {
+  display: flex;
+  gap: 60px;
+}
+.experience > article {
+  width: 50%;
+}
+.experience .my-image img {
+  width: 100%;
+}
+
+.experience-details .header-info .title {
+  width: 100%;
+  margin-top: 39px;
+  color: #131313;
+  font-weight: 700;
+  font-size: 45px;
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+.experience-details .header-info .desc {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+.experience-details .sector {
+  padding: 30px 42px 30px 30px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.experience-details .sector .title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.experience-details .sector .desc {
+  font-weight: 400;
+  font-size: 16px;
+}
+.experience .my-image .primary-btn {
+  padding: 45px 30px;
+  position: relative;
+  left: -30px;
+  top: -80px;
+}
+.experience .my-image .primary-btn span {
+  font-weight: 700;
+  font-size: 65px;
+}
+
+/* Main Sections Styles Is OVer Above */
