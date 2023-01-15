@@ -196,4 +196,50 @@ nav ul li a {
   font-size: 65px;
 }
 
+/* Some Facts Sections Styles Stat Here */
+
+.some-facts {
+  margin-bottom: 160px;
+}
+.some-facts .header {
+  margin-bottom: 100px;
+}
+.some-facts .header .title {
+  font-weight: 700;
+  font-size: 45px;
+}
+.some-facts .header .desc {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 24px;
+}
+.some-facts .facts {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+.some-facts .fact {
+  border: 1px solid orangered;
+  padding: 40px 30px;
+  width: 224px;
+  height: 133px;
+}
+.some-facts .facts .fact .title {
+  color: #424242;
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.some-facts .facts .fact .desc {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 5px;
+}
+/* Some Facts Sections Ends Above */
+
 /* Main Sections Styles Is OVer Above */
