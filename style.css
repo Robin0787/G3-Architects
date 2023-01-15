@@ -360,7 +360,7 @@ nav ul li a {
   }
   .experience .my-image .primary-btn {
     padding: 30px 20px;
-    left: 50px;
+    left: 45px;
   }
   .experience .my-image .primary-btn span {
     font-size: 45px;
@@ -378,10 +378,19 @@ nav ul li a {
     width: 100%;
   }
   .sponsors .sponsors-logo {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     align-items: center;
-    column-gap: 40px;
-    row-gap: 20px;
+    row-gap: 30px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .sponsors .sponsors-logo {
   }
   /* Sponsors Section Ends */
+  /* ----------------------------- */
+  /* Footer Section Starts */
+  .footer .desc {
+    padding: 30px 10px;
+  }
+  /* Footer Section Ends */
 }
