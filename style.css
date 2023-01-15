@@ -196,7 +196,7 @@ nav ul li a {
   font-size: 65px;
 }
 
-/* Some Facts Sections Styles Stat Here */
+/* Some-facts Sections Styles Stat Here */
 
 .some-facts {
   margin-bottom: 160px;
@@ -226,9 +226,18 @@ nav ul li a {
 .some-facts .fact {
   border: 1px solid orangered;
   padding: 40px 30px;
+  border-radius: 8px;
   width: 224px;
   height: 133px;
+  transition: background-color 1s ease, transform 0.6s ease;
 }
+
+.some-facts .fact:hover {
+  background-color: #f9921d;
+  color: white;
+  transform: translateY(-10px);
+}
+
 .some-facts .facts .fact .title {
   color: #424242;
   font-weight: 600;
@@ -240,6 +249,51 @@ nav ul li a {
   font-size: 18px;
   margin-top: 5px;
 }
-/* Some Facts Sections Ends Above */
+/* Some-facts Sections Styles Is Over Above */
+
+/* Sponsors Sections Styles Start From Here */
+.sponsors {
+  margin-bottom: 130px;
+}
+.sponsors .sponsor-header {
+  width: 52%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sponsor-header .title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+.sponsor-header .desc {
+  font-weight: 400;
+  font-size: 16px;
+}
+.sponsors .sponsors-logo {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 140px;
+}
+
+.sponsors-logo img {
+  width: 100%;
+}
+/* Sponsors Sections Styles Is Over Above */
 
 /* Main Sections Styles Is OVer Above */
+
+/* Footer Sections Styles Start From Here */
+.footer {
+  background: #fff4e7;
+  border-radius: 8px;
+  margin-bottom: 216px;
+}
+.footer .desc {
+  color: #424242;
+  text-align: center;
+  padding: 39px 0;
+}
+
+/* Footer Sections Styles Is Over Above */
