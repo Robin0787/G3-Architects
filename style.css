@@ -76,8 +76,11 @@ nav ul li a {
   padding-bottom: 45px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   text-align: center;
+}
+.banner-details {
+  width: 70%;
+  margin: 0 auto;
 }
 .banner .banner-image img {
   width: 100%;
@@ -288,12 +291,100 @@ nav ul li a {
 .footer {
   background: #fff4e7;
   border-radius: 8px;
-  margin-bottom: 216px;
+  margin-bottom: 130px;
 }
 .footer .desc {
   color: #424242;
   text-align: center;
   padding: 39px 0;
 }
-
 /* Footer Sections Styles Is Over Above */
+
+/* Responsive Design Part Starts From Here*/
+
+/* For Mobile ----------- For Mobile ---------- For Mobile */
+@media screen and (max-width: 576px) {
+  /* Navbar Section Starts */
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav .logo .title {
+    margin-bottom: 15px;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul li {
+    margin-left: 0;
+  }
+  /* Navbar Section Ends */
+  /* ------------------------ */
+  /* Banner Section Starts */
+  .banner {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  .banner-details {
+    width: 70%;
+  }
+  .banner .banner-details .title {
+    font-size: 40px;
+  }
+
+  .hide {
+    display: none;
+  }
+  /* Banner Section Ends */
+  /* ------------------------- */
+  /* Features Section Starts */
+  .features {
+    flex-direction: column;
+  }
+  .features > article {
+    width: 100%;
+  }
+  .features .features-details {
+    width: 80%;
+    text-align: center;
+  }
+  .features .features-images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* Features Section Ends */
+  /* -------------------------- */
+  /* Experience Section Starts */
+  .experience {
+    flex-direction: column;
+  }
+  .experience > article {
+    width: 100%;
+  }
+  .experience .my-image .primary-btn {
+    padding: 30px 20px;
+    left: 60px;
+  }
+  .experience .my-image .primary-btn span {
+    font-size: 45px;
+  }
+  /* Experience Section Ends */
+  /* --------------------------- */
+  /* Some-facts Section Starts */
+  .some-facts .facts {
+    flex-direction: column;
+  }
+  /* Some-facts Section Ends */
+  /* ---------------------------- */
+  /* Sponsors Section Starts */
+  .sponsors .sponsor-header {
+    width: 100%;
+  }
+  .sponsors .sponsors-logo {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 40px;
+    row-gap: 20px;
+  }
+  /* Sponsors Section Ends */
+}
