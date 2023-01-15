@@ -311,6 +311,7 @@ nav ul li a {
   }
   nav .logo .title {
     margin-bottom: 15px;
+    font-size: 38px;
   }
   nav ul {
     flex-direction: column;
